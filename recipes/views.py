@@ -5,5 +5,5 @@ def home(request):
     return render(request, 'recipes/home.html')
 
 
-def sobre(request):
-    return render(request, 'recipes/sobre.html')
+def about(request):
+    return render(request, 'recipes/about.html')
